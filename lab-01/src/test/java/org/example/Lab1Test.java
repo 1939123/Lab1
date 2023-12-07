@@ -10,7 +10,7 @@ import java.time.LocalDate;
 
 import static org.junit.Assert.*;
 
-public class Lab1Test {/* 
+public class Lab1Test {
     private static Product p1, p2, p3, p4;
 
     @BeforeClass
@@ -70,5 +70,5 @@ public class Lab1Test {/*
         catch(IllegalArgumentException e){
             assertTrue(p1.getWeight() > 0);
         }
-    }*/
+    }
 }

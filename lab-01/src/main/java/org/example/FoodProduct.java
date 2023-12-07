@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class FoodProduct extends Product{
   private LocalDate expirationDate;
 
-  public FoodProduct(int id, double price, String name, LocalDate expirationDate){
-    super(id, price, name);
+  public FoodProduct(int id, double price, String name,double weight, LocalDate expirationDate){
+    super(id, price, name,weight);
     this.expirationDate = expirationDate;
   }
 
